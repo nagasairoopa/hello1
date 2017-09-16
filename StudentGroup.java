@@ -34,7 +34,7 @@ public class StudentGroup implements StudentArrayOperation {
 		// Add your implementation here
 			try{
 	if(students==null)
-		throw  IllegalArgumentException();
+		throw IllegalArgumentException();
 }
 catch(IllegalArgumentException e)
 {}
@@ -60,11 +60,13 @@ catch(IllegalArgumentException e)
 	public void addFirst(Student student) {
 		// Add your implementation here
 			try
-{if(student==null)
- 		  throw new IllegalArgumentException();
+{
+    if(student==null)
+ 		  throw IllegalArgumentException();
 }
 catch(IllegalArgumentException e)
-{}
+{
+}
 		this.students[0]=student;
 	}
 
